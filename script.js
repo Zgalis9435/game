@@ -205,7 +205,7 @@ function attack() {
     }
   }
   if (Math.random() <= .1 && inventory.length !== 1) {
-    text.innerText += " Your " + inventory.pop() + " breaks.";
+    text.innerText += " Tu " + inventory.pop() + " se ha rompido.";
     currentWeapon--;
   }
 }
@@ -245,7 +245,7 @@ function restart() {
   health = 100;
   gold = 50;
   currentWeapon = 0;
-  inventory = ["stick"];
+  inventory = ["Palito"];
   goldText.innerText = gold;
   healthText.innerText = health;
   xpText.innerText = xp;
